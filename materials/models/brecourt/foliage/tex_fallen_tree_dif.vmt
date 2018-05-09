@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models/brecourt/foliage/tex_fallen_tree_Dif"
+"$bumpmap" "models/brecourt/foliage/tex_fallen_tree_Nrm"
+"$alphatest" "1"
+"$alphatestreference" .5
+"$allowalphatocoverage" 1
+"$halflambert" "1"
+"$nocull" 1
+}

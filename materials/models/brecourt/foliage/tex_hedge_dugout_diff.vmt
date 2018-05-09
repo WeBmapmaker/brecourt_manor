@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models/brecourt/foliage/tex_hedge_dugout_diff"
+"$bumpmap" "models/brecourt/foliage/tex_hedge_dugout_nrm"
+}

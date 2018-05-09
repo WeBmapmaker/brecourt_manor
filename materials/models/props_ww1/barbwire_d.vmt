@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$basetexture 			"models\props_ww1\barbwire_d"
+$bumpmap 		"models\props_ww1\barbwire_n"
+
+"$phongexponenttexture" 			"models\props_ww1\barbwire_m"
+"$phong" "1"
+"$phongboost" ".02"
+"$phongfresnelranges" "[3 5 7]"
+"$phongalbedotint" "1"
+"$phongdisablehalflambert" "1"
+"$lightwarptexture" "models\props_ww1\Clothes_wrp"
+}

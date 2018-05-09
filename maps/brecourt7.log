@@ -1,0 +1,108 @@
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt7.vmf
+Map revision 138
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt7/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt7/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt7/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt7/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt7/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 146 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt7.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (90956 bytes)
+Error! prop_static using model "models/props_misc/mirror-1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_misc/mirror-1.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1339 texinfos to 315
+Reduced 54 texdatas to 45 (1589 bytes to 1085)
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt7.bsp
+1 second elapsed
+
+
+
+12 threads
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt7.bsp
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt7.prt
+ 407 portalclusters
+ 838 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 593 visible clusters (0.00%)
+Total clusters visible: 52316
+Average clusters visible: 128
+Building PAS...
+Average clusters audible: 340
+visdatasize:37231  compressed from 45584
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt7.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[6 texlights parsed from 'lights.rad']
+
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt7.bsp
+1447 faces
+5152757 square feet [741997056.00 square inches]
+205 Displacements
+1844400 Square Feet [265593600.00 Square Inches]
+1447 patches before subdivision
+67469 patches after subdivision
+21 direct lights
+0...
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt7.vmf
+Map revision 138
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt7/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt7/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt7/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt7/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt7/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 146 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt7.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (90956 bytes)
+Error! prop_static using model "models/props_misc/mirror-1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_misc/mirror-1.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1339 texinfos to 315
+Reduced 54 texdatas to 45 (1589 bytes to 1085)
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt7.bsp
+1 second elapsed

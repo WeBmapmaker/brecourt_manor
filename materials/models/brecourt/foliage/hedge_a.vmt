@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models/brecourt/foliage/hedge_a"
+"$bumpmap" "models/brecourt/foliage/hedge_a_nrm"
+"$alphatest" "1"
+"$alphatestreference" .5
+"$allowalphatocoverage" 1
+"$halflambert" "1"
+"$nocull" 1
+}

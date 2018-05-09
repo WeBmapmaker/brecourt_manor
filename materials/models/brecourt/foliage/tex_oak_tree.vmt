@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models/brecourt/foliage/tex_oak_tree"
+"$alphatestreference" .5
+"$allowalphatocoverage" 1
+"$halflambert" "1"
+"$nocull" 1
+}

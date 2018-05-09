@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$basetexture 			"models\props_ww1\Woodplank_d"
+$bumpmap 		"models\props_ww1\Woodplank_n"
+$ambientocculsuion 		"models\props_ww1\Woodplank_s"
+
+"$phongexponenttexture" 			"models\props_ww1\Woodplank_m"
+
+}

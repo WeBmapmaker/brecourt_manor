@@ -1,0 +1,84 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7690"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "2"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "ramadisky"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"timeofday" "5"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableshadows" "0"
+	"fademaxdist" "4500"
+	"fademindist" "4000"
+	"fadescale" "1"
+	"model" "models/props_urban/donner_wall_160.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "16 0 -52"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 7000]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableshadows" "0"
+	"fademaxdist" "4500"
+	"fademindist" "4000"
+	"fadescale" "1"
+	"model" "models/props_urban/donner_wall_post.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-78 0 -52"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 6000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

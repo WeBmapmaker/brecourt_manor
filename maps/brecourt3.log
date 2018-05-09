@@ -1,0 +1,436 @@
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.vmf
+Map revision 69
+fixing up env_cubemap materials on brush sides...
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Displacement A: Location: -1.#IND00 1.#INF00 1.#INF00
+Displacement B: Location: -1.#IND00 -1.#IND00 -1.#IND00
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.vmf
+Map revision 70
+fixing up env_cubemap materials on brush sides...
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Displacement A: Location: -1.#IND00 1.#INF00 1.#INF00
+Displacement B: Location: -1.#IND00 -1.#IND00 -1.#IND00
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.vmf
+Map revision 71
+fixing up env_cubemap materials on brush sides...
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Displacement A: Location: -1.#IND00 1.#INF00 1.#INF00
+Displacement B: Location: -1.#IND00 -1.#IND00 -1.#IND00
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.vmf
+Map revision 72
+fixing up env_cubemap materials on brush sides...
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Displacement A: Location: 1.#INF00 -1.#IND00 1.#INF00
+Displacement B: Location: -1.#IND00 -1.#IND00 -1.#IND00
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.vmf
+Map revision 73
+fixing up env_cubemap materials on brush sides...
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Displacement A: Location: 1.#INF00 -1.#IND00 1.#INF00
+Displacement B: Location: -1.#IND00 -1.#IND00 -1.#IND00
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.vmf
+Map revision 74
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2288 bytes)
+Error! To use model "models/characters/american/player_american_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/characters/american/player_american_01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 3
+Reduced 3 texdatas to 2 (56 bytes to 38)
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+1 second elapsed
+
+
+
+12 threads
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.prt
+  66 portalclusters
+ 115 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4356
+Average clusters visible: 66
+Building PAS...
+Average clusters audible: 66
+visdatasize:1720  compressed from 2112
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[6 texlights parsed from 'lights.rad']
+
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+330 faces
+1079683 square feet [155474432.00 square inches]
+164 Displacements
+299626 Square Feet [43146148.00 Square Inches]
+330 patches before subdivision
+20796 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 274454, max 223
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(145, 145, 145)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0097 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                 192/65536        3840/1310720  ( 0.3%) 
+vertexes               378/65536        4536/786432   ( 0.6%) 
+nodes                  272/65536        8704/2097152  ( 0.4%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos              164/0           28864/0        ( 0.0%) 
+disp_verts           13284/0          265680/0        ( 0.0%) 
+disp_tris            20992/0           41984/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      758336/0          758336/0        ( 0.0%) 
+faces                  330/65536       18480/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              170/65536        9520/3670016  ( 0.3%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         330/0            1320/0        ( 0.0%) 
+leaves                 274/65536        8768/2097152  ( 0.4%) 
+leaffaces              166/65536         332/131072   ( 0.3%) 
+leafbrushes            301/65536         602/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2000/512000       8000/2048000  ( 0.4%) 
+edges                 1069/256000       4276/1024000  ( 0.4%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1517328/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1720/16777216 ( 0.0%) 
+entdata               [variable]         664/393216   ( 0.2%) 
+LDR ambient table      274/65536        1096/262144   ( 0.4%) 
+HDR ambient table      274/65536        1096/262144   ( 0.4%) 
+LDR leaf ambient       440/65536       12320/1835008  ( 0.7%) 
+HDR leaf ambient       274/65536        7672/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12052    ( 0.0%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        2288/4194304  ( 0.1%) 
+physics terrain       [variable]       40264/1048576  ( 3.8%) 
+
+Level flags = 4
+
+Total triangle count: 660
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.vmf
+Map revision 75
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2288 bytes)
+Error! To use model "models/brecourt/foliage/hedge_intersection.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/brecourt/foliage/hedge_intersection.mdl"!
+Error! To use model "models/characters/american/player_american_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/characters/american/player_american_01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 3
+Reduced 3 texdatas to 2 (56 bytes to 38)
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+1 second elapsed
+
+
+
+12 threads
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.prt
+  66 portalclusters
+ 115 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 4356
+Average clusters visible: 66
+Building PAS...
+Average clusters audible: 66
+visdatasize:1720  compressed from 2112
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[6 texlights parsed from 'lights.rad']
+
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+330 faces
+1079683 square feet [155474432.00 square inches]
+164 Displacements
+299626 Square Feet [43146148.00 Square Inches]
+330 patches before subdivision
+20796 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 271793, max 221
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(143, 143, 143)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0097 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                 192/65536        3840/1310720  ( 0.3%) 
+vertexes               378/65536        4536/786432   ( 0.6%) 
+nodes                  272/65536        8704/2097152  ( 0.4%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos              164/0           28864/0        ( 0.0%) 
+disp_verts           13284/0          265680/0        ( 0.0%) 
+disp_tris            20992/0           41984/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      758336/0          758336/0        ( 0.0%) 
+faces                  330/65536       18480/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              170/65536        9520/3670016  ( 0.3%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         330/0            1320/0        ( 0.0%) 
+leaves                 274/65536        8768/2097152  ( 0.4%) 
+leaffaces              166/65536         332/131072   ( 0.3%) 
+leafbrushes            301/65536         602/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2000/512000       8000/2048000  ( 0.4%) 
+edges                 1069/256000       4276/1024000  ( 0.4%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1517328/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1720/16777216 ( 0.0%) 
+entdata               [variable]         664/393216   ( 0.2%) 
+LDR ambient table      274/65536        1096/262144   ( 0.4%) 
+HDR ambient table      274/65536        1096/262144   ( 0.4%) 
+LDR leaf ambient       442/65536       12376/1835008  ( 0.7%) 
+HDR leaf ambient       274/65536        7672/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12472    ( 0.0%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        2288/4194304  ( 0.1%) 
+physics terrain       [variable]       40264/1048576  ( 3.8%) 
+
+Level flags = 4
+
+Total triangle count: 660
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.vmf
+Map revision 76
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2288 bytes)
+Error! To use model "models/brecourt/foliage/hedge_intersection.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/brecourt/foliage/hedge_intersection.mdl"!
+Error! To use model "models/characters/american/player_american_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/characters/american/player_american_01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 3
+Reduced 3 texdatas to 2 (56 bytes to 38)
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+1 second elapsed
+
+
+
+12 threads
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.prt
+  66 portalclusters
+ 115 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 3492
+Average clusters visible: 52
+Building PAS...
+Average clusters audible: 66
+visdatasize:1765  compressed from 2112
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[6 texlights parsed from 'lights.rad']
+
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+330 faces
+1079683 square feet [155474432.00 square inches]
+164 Displacements
+299626 Square Feet [43146148.00 Square Inches]
+330 patches before subdivision
+20796 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 269308, max 221
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(749, 743, 646)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4, 4, 3)
+Build Patch/Sample Hash Table(s).....Done<0.0105 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  6/8192           72/98304    ( 0.1%) 
+brushsides              36/65536         288/524288   ( 0.1%) 
+planes                 192/65536        3840/1310720  ( 0.3%) 
+vertexes               378/65536        4536/786432   ( 0.6%) 
+nodes                  272/65536        8704/2097152  ( 0.4%) 
+texinfos                 3/12288         216/884736   ( 0.0%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos              164/0           28864/0        ( 0.0%) 
+disp_verts           13284/0          265680/0        ( 0.0%) 
+disp_tris            20992/0           41984/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      758336/0          758336/0        ( 0.0%) 
+faces                  330/65536       18480/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              170/65536        9520/3670016  ( 0.3%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists         330/0            1320/0        ( 0.0%) 
+leaves                 274/65536        8768/2097152  ( 0.4%) 
+leaffaces              166/65536         332/131072   ( 0.3%) 
+leafbrushes            301/65536         602/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2000/512000       8000/2048000  ( 0.4%) 
+edges                 1069/256000       4276/1024000  ( 0.4%) 
+LDR worldlights          2/8192          200/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1517328/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1765/16777216 ( 0.0%) 
+entdata               [variable]        2886/393216   ( 0.7%) 
+LDR ambient table      274/65536        1096/262144   ( 0.4%) 
+HDR ambient table      274/65536        1096/262144   ( 0.4%) 
+LDR leaf ambient       749/65536       20972/1835008  ( 1.1%) 
+HDR leaf ambient       274/65536        7672/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12472    ( 0.0%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        2288/4194304  ( 0.1%) 
+physics terrain       [variable]       40264/1048576  ( 3.8%) 
+
+Level flags = 4
+
+Total triangle count: 660
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt3.bsp
+18 seconds elapsed

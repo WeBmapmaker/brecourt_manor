@@ -1,0 +1,943 @@
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 198
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7296.0 10240.0 2440.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7296.0 10240.0 -392.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7808.0 10240.0 1024.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 10368.0 2440.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 10368.0 -392.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 10880.0 1024.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7680.0 11264.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 10752.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3446 bytes)
+Placing detail props : 0...1...2...3...4...5...6...
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 199
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7296.0 10240.0 2440.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7296.0 10240.0 -392.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7808.0 10240.0 1024.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 10368.0 2440.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 10368.0 -392.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 10880.0 1024.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7680.0 11264.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 10752.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3446 bytes)
+Placing detail props : 0...1...2...3...4...5...6...
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 200
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3446 bytes)
+Error! To use model "models/characters/american/player_american_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/characters/american/player_american_01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 201
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113470 bytes)
+Error! To use model "models/characters/american/player_american_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/characters/american/player_american_01.mdl"!
+Error! prop_static using model "models/props_misc/mirror-1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_misc/mirror-1.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1004 texinfos to 371
+Reduced 57 texdatas to 56 (1431 bytes to 1385)
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 201
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113470 bytes)
+Error! To use model "models/characters/american/player_american_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/characters/american/player_american_01.mdl"!
+Error! prop_static using model "models/props_misc/mirror-1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_misc/mirror-1.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1004 texinfos to 371
+Reduced 57 texdatas to 56 (1431 bytes to 1385)
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+1 second elapsed
+
+
+
+12 threads
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt
+ 440 portalclusters
+ 948 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1587 visible clusters (0.00%)
+Total clusters visible: 70619
+Average clusters visible: 160
+Building PAS...
+Average clusters audible: 373
+visdatasize:43015  compressed from 49280
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[6 texlights parsed from 'lights.rad']
+
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+1120 faces
+3258696 square feet [469252320.00 square inches]
+68 Displacements
+32533 Square Feet [4684857.50 Square Inches]
+1120 patches before subdivision
+13942 patches after subdivision
+25 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 447843, max 214
+transfer lists:   3.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13466, 10115, 5283)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1496, 1054, 472)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                305/8192         3660/98304    ( 3.7%) 
+brushsides            2101/65536       16808/524288   ( 3.2%) 
+planes                2022/65536       40440/1310720  ( 3.1%) 
+vertexes              2291/65536       27492/786432   ( 3.5%) 
+nodes                 1303/65536       41696/2097152  ( 2.0%) 
+texinfos               371/12288       26712/884736   ( 3.0%) 
+texdata                 56/2048         1792/65536    ( 2.7%) 
+dispinfos               68/0           11968/0        ( 0.0%) 
+disp_verts            1756/0           35120/0        ( 0.0%) 
+disp_tris             2272/0            4544/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      111736/0          111736/0        ( 0.0%) 
+faces                 1120/65536       62720/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              710/65536       39760/3670016  ( 1.1%) 
+facebrushes             67/0             134/0        ( 0.0%) 
+facebrushlists        1120/0            4480/0        ( 0.0%) 
+leaves                1315/65536       42080/2097152  ( 2.0%) 
+leaffaces             1167/65536        2334/131072   ( 1.8%) 
+leafbrushes           1339/65536        2678/131072   ( 2.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7972/512000      31888/2048000  ( 1.6%) 
+edges                 5399/256000      21596/1024000  ( 2.1%) 
+LDR worldlights         25/8192         2500/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            103/32768        1030/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1914/65536        3828/131072   ( 2.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                48/1024        16896/360448   ( 4.7%) 
+LDR lightdata         [variable]      999144/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       43015/16777216 ( 0.3%) 
+entdata               [variable]       21551/393216   ( 5.5%) 
+LDR ambient table     1315/65536        5260/262144   ( 2.0%) 
+HDR ambient table     1315/65536        5260/262144   ( 2.0%) 
+LDR leaf ambient      5959/65536      166852/1835008  ( 9.1%) 
+HDR leaf ambient      1315/65536       36820/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/55324    ( 0.0%) 
+pakfile               [variable]         356/0        ( 0.0%) 
+physics               [variable]      113470/4194304  ( 2.7%) 
+physics terrain       [variable]        5244/1048576  ( 0.5%) 
+
+Level flags = 4
+
+Total triangle count: 2919
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+24 seconds elapsed
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 202
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 202
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 204
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113470 bytes)
+Error! To use model "models/characters/american/player_american_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/characters/american/player_american_01.mdl"!
+Error! prop_static using model "models/props_misc/mirror-1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_misc/mirror-1.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1066 texinfos to 375
+Reduced 62 texdatas to 57 (1688 bytes to 1406)
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+1 second elapsed
+
+
+
+12 threads
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt
+ 440 portalclusters
+ 948 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1587 visible clusters (0.00%)
+Total clusters visible: 70619
+Average clusters visible: 160
+Building PAS...
+Average clusters audible: 373
+visdatasize:43015  compressed from 49280
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 205
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 205
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 207
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 209
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113470 bytes)
+Error! To use model "models/characters/american/player_american_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/characters/american/player_american_01.mdl"!
+Error! prop_static using model "models/props_misc/mirror-1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_misc/mirror-1.mdl"!
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 211
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 212
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (11385 bytes)
+Error! To use model "models/characters/american/player_american_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/characters/american/player_american_01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 572 texinfos to 23
+Reduced 15 texdatas to 6 (630 bytes to 126)
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+1 second elapsed
+
+
+
+12 threads
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt
+ 303 portalclusters
+ 607 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 243 visible clusters (0.00%)
+Total clusters visible: 30982
+Average clusters visible: 102
+Building PAS...
+Average clusters audible: 241
+visdatasize:21127  compressed from 24240
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[6 texlights parsed from 'lights.rad']
+
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 213
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113470 bytes)
+Error! To use model "models/characters/american/player_american_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/characters/american/player_american_01.mdl"!
+Error! prop_static using model "models/props_misc/mirror-1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_misc/mirror-1.mdl"!
+
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 214
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (112834 bytes)
+Error! To use model "models/characters/american/player_american_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/characters/american/player_american_01.mdl"!
+Error! prop_static using model "models/props_misc/mirror-1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_misc/mirror-1.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1545 texinfos to 388
+Reduced 64 texdatas to 56 (1834 bytes to 1376)
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+2 seconds elapsed
+
+
+
+12 threads
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt
+ 430 portalclusters
+ 908 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 665 visible clusters (0.00%)
+Total clusters visible: 56189
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 354
+visdatasize:40760  compressed from 48160
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[6 texlights parsed from 'lights.rad']
+
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+1278 faces
+3255567 square feet [468801760.00 square inches]
+229 Displacements
+1844551 Square Feet [265615440.00 Square Inches]
+1278 patches before subdivision
+68696 patches after subdivision
+25 direct lights
+0...1..
+
+
+materialPath: C:\Games\steamapps\common\dayofinfamy\doi\materials
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.vmf
+Map revision 214
+Can't find surfaceprop fabric for material MAPS/TRIM/CAMO_NETTING_01, using default
+ConVarRef gpu_level doesn't point to an existing ConVar
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hr_dirt_grass_germany_02_nodetail_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_gravel_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/maps/terrain/blend_hay_grass_germany_02_wvt_patch
+Patching WVT material: maps/brecourt9/terrain/blend_hr_sandroad_grass_germany_02_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 148 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (112834 bytes)
+Error! To use model "models/characters/american/player_american_01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/characters/american/player_american_01.mdl"!
+Error! prop_static using model "models/props_misc/mirror-1.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_misc/mirror-1.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1545 texinfos to 388
+Reduced 64 texdatas to 56 (1834 bytes to 1376)
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+2 seconds elapsed
+
+
+
+12 threads
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+reading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.prt
+ 430 portalclusters
+ 908 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1411 visible clusters (0.00%)
+Total clusters visible: 66837
+Average clusters visible: 155
+Building PAS...
+Average clusters audible: 362
+visdatasize:41276  compressed from 48160
+writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[6 texlights parsed from 'lights.rad']
+
+Loading d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+1278 faces
+3255567 square feet [468801760.00 square inches]
+229 Displacements
+1844551 Square Feet [265615440.00 Square Inches]
+1278 patches before subdivision
+68696 patches after subdivision
+25 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2210993, max 358
+transfer lists:  16.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(33717, 27597, 17588)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2773, 2100, 1064)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                305/8192         3660/98304    ( 3.7%) 
+brushsides            2101/65536       16808/524288   ( 3.2%) 
+planes                2178/65536       43560/1310720  ( 3.3%) 
+vertexes              2486/65536       29832/786432   ( 3.8%) 
+nodes                 1293/65536       41376/2097152  ( 2.0%) 
+texinfos               388/12288       27936/884736   ( 3.2%) 
+texdata                 56/2048         1792/65536    ( 2.7%) 
+dispinfos              229/0           40304/0        ( 0.0%) 
+disp_verts           14797/0          295940/0        ( 0.0%) 
+disp_tris            22880/0           45760/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples     2858184/0         2858184/0        ( 0.0%) 
+faces                 1278/65536       71568/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              870/65536       48720/3670016  ( 1.3%) 
+facebrushes             67/0             134/0        ( 0.0%) 
+facebrushlists        1278/0            5112/0        ( 0.0%) 
+leaves                1305/65536       41760/2097152  ( 2.0%) 
+leaffaces             1165/65536        2330/131072   ( 1.8%) 
+leafbrushes           1335/65536        2670/131072   ( 2.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9244/512000      36976/2048000  ( 1.8%) 
+edges                 6143/256000      24572/1024000  ( 2.4%) 
+LDR worldlights         25/8192         2500/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            103/32768        1030/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1914/65536        3828/131072   ( 2.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                48/1024        16896/360448   ( 4.7%) 
+LDR lightdata         [variable]     6477552/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       41276/16777216 ( 0.2%) 
+entdata               [variable]       21552/393216   ( 5.5%) 
+LDR ambient table     1305/65536        5220/262144   ( 2.0%) 
+HDR ambient table     1305/65536        5220/262144   ( 2.0%) 
+LDR leaf ambient      5014/65536      140392/1835008  ( 7.7%) 
+HDR leaf ambient      1305/65536       36540/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/55254    ( 0.0%) 
+pakfile               [variable]        2239/0        ( 0.0%) 
+physics               [variable]      112834/4194304  ( 2.7%) 
+physics terrain       [variable]       22779/1048576  ( 2.2%) 
+
+Level flags = 4
+
+Total triangle count: 3235
+Writing d:\sourceengine\dayofinfamy\mapsrc\brecourt_manor\maps\brecourt9.bsp
+2 minutes, 13 seconds elapsed
