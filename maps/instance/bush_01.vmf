@@ -1,0 +1,147 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7690"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "ramadisky"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"timeofday" "5"
+	solid
+	{
+		"id" "51"
+		side
+		{
+			"id" "1"
+			"plane" "(-235.242 66.4244 17.4487) (248.053 96.7859 17.4487) (234.66 -94.7465 17.4487)"
+			"material" "TOOLS/TOOLSBLOCK_LOS"
+			"uaxis" "[0.0697594 0.997602 0 -7.18899] 0.25"
+			"vaxis" "[0.997602 -0.0697594 0 -3.28326] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(248.053 96.7859 -78.5513) (-235.242 66.4244 -78.5513) (-244.171 -61.2634 -78.5513)"
+			"material" "TOOLS/TOOLSBLOCK_LOS"
+			"uaxis" "[0.0697594 0.997602 0 -7.18899] 0.25"
+			"vaxis" "[0.997602 -0.0697594 0 -3.28326] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(234.66 -94.7465 17.4487) (234.66 -94.7465 -78.5513) (-244.171 -61.2634 -78.5513)"
+			"material" "TOOLS/TOOLSBLOCK_LOS"
+			"uaxis" "[-0.997602 0.0697594 0 3.28326] 0.25"
+			"vaxis" "[0 0 -1 -58.2053] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(248.053 96.7859 -78.5513) (248.053 96.7859 17.4487) (-235.242 66.4244 17.4487)"
+			"material" "TOOLS/TOOLSBLOCK_LOS"
+			"uaxis" "[-0.997602 0.0697594 0 3.28326] 0.25"
+			"vaxis" "[0 0 -1 -58.2053] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-244.171 -61.2634 17.4487) (-244.171 -61.2634 -78.5513) (-235.242 66.4244 -78.5513)"
+			"material" "TOOLS/TOOLSBLOCK_LOS"
+			"uaxis" "[0.0697594 0.997602 0 -7.18899] 0.25"
+			"vaxis" "[0 0 -1 -58.2053] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(234.66 -94.7465 -78.5513) (234.66 -94.7465 17.4487) (248.053 96.7859 17.4487)"
+			"material" "TOOLS/TOOLSBLOCK_LOS"
+			"uaxis" "[0.0697594 0.997602 0 -7.18899] 0.25"
+			"vaxis" "[0 0 -1 -58.2053] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "202 211 0"
+			"groupid" "50"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "50"
+		editor
+		{
+			"color" "202 211 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "52"
+	"classname" "prop_foliage"
+	"angles" "0 86 0"
+	"disableshadows" "1"
+	"fademaxdist" "4500"
+	"fademindist" "4096"
+	"fadescale" "1"
+	"model" "models/foliage/afghan_bush_leaves_a_single.mdl"
+	"modelscale" "1.0"
+	"skin" "0"
+	"origin" "47.5918 -17.5092 -42.9209"
+	editor
+	{
+		"color" "202 211 0"
+		"groupid" "50"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-12268 -16268]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

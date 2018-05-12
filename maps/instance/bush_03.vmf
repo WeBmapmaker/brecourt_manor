@@ -1,0 +1,158 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7690"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "ramadisky"
+	"timeofday" "5"
+	solid
+	{
+		"id" "51"
+		side
+		{
+			"id" "1"
+			"plane" "(-83.211 112.886 17.4487) (176 152 17.4487) (168.817 -94.7465 17.4487)"
+			"material" "TOOLS/TOOLSBLOCK_LOS"
+			"uaxis" "[0.0697594 0.997602 0 -7.18899] 0.25"
+			"vaxis" "[0.997602 -0.0697594 0 -3.28326] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(176 152 -78.5513) (-83.211 112.886 -78.5513) (-88 -51.6111 -78.5513)"
+			"material" "TOOLS/TOOLSBLOCK_LOS"
+			"uaxis" "[0.0697594 0.997602 0 -7.18899] 0.25"
+			"vaxis" "[0.997602 -0.0697594 0 -3.28326] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(168.817 -94.7465 17.4487) (168.817 -94.7465 -78.5513) (-88 -51.6111 -78.5513)"
+			"material" "TOOLS/TOOLSBLOCK_LOS"
+			"uaxis" "[-0.986223 0.165649 0 3.28326] 0.25"
+			"vaxis" "[0 0 -1 -58.2053] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(176 152 -78.5513) (176 152 17.4487) (-83.211 112.886 17.4487)"
+			"material" "TOOLS/TOOLSBLOCK_LOS"
+			"uaxis" "[-0.986223 0.165649 0 3.28326] 0.25"
+			"vaxis" "[0 0 -1 -58.2053] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-88 -51.6111 17.4487) (-88 -51.6111 -78.5513) (-83.211 112.886 -78.5513)"
+			"material" "TOOLS/TOOLSBLOCK_LOS"
+			"uaxis" "[0.0291012 1 0 -8.21335] 0.25"
+			"vaxis" "[0 0 -1 -58.2053] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(168.817 -94.7465 -78.5513) (168.817 -94.7465 17.4487) (176 152 17.4487)"
+			"material" "TOOLS/TOOLSBLOCK_LOS"
+			"uaxis" "[0.0291012 1 0 -8.21335] 0.25"
+			"vaxis" "[0 0 -1 -58.2053] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "163 196 0"
+			"groupid" "50"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "62"
+		editor
+		{
+			"color" "163 196 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "50"
+		editor
+		{
+			"color" "163 196 0"
+			"groupid" "62"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "52"
+	"classname" "prop_foliage"
+	"angles" "-31.4145 85.3115 2.44772"
+	"disableshadows" "1"
+	"fademaxdist" "4500"
+	"fademindist" "4096"
+	"fadescale" "1"
+	"model" "models/props_foliage/bushes_tropical_large01.mdl"
+	"modelscale" "1.0"
+	"skin" "0"
+	"origin" "-19.9236 40.3612 -42.9209"
+	editor
+	{
+		"color" "163 196 0"
+		"groupid" "50"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-12268 -16268]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

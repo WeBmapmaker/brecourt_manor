@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "327"
+	"mapversion" "339"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "327"
+	"mapversion" "339"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "foliage_brecourt.vbsp"
@@ -4236,7 +4236,7 @@ world
 					"row5" "255 255 255 255 255 255 255 255 255"
 					"row6" "255 255 255 255 255 255 255 255 255"
 					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "110.559 0 0 0 0 0 0 0 25.5975"
+					"row8" "0 0 0 0 0 0 0 0 25.5975"
 				}
 				triangle_tags
 				{
@@ -4395,7 +4395,7 @@ world
 					"row5" "255 255 255 255 255 255 255 255 255"
 					"row6" "255 255 255 255 255 255 255 255 255"
 					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "76.5585 0 0 0 0 0 0 0 110.559"
+					"row8" "76.5585 0 0 0 0 0 0 0 0"
 				}
 				triangle_tags
 				{
@@ -7160,9 +7160,9 @@ world
 				}
 				distances
 				{
-					"row0" "7.3893 13.6124 108.625 137.109 174.626 64.2634 35.5395 3.80784 0"
-					"row1" "0.441547 8.93644 114.641 137.055 176.292 81.8211 51.4142 15.3692 0"
-					"row2" "0 19.1907 114.843 126.882 170.601 91.8789 68.9809 22.4702 0"
+					"row0" "7.3893 13.6124 108.625 137.109 120.104 64.2634 35.5395 3.80784 0"
+					"row1" "0.441547 8.93644 114.641 137.055 127.495 81.8211 51.4142 15.3692 0"
+					"row2" "0 19.1907 114.843 126.882 151.138 91.8789 68.9809 22.4702 0"
 					"row3" "0 17.033 116.675 113.245 159.725 92.4094 84.613 24.9015 0.976791"
 					"row4" "0 2.71231 119.641 109.116 142.998 88.0742 92.4512 25.3948 8.59791"
 					"row5" "0 9.92866 116.284 108.054 125.492 79.9232 96.7325 25.7286 18.7127"
@@ -7323,11 +7323,11 @@ world
 					"row1" "50.9904 44.0842 56.9097 65.4547 17.261 28.101 14.1665 0 0"
 					"row2" "66.8151 62.6599 64.6826 74.8793 21.6146 32.6838 18.5549 0 0"
 					"row3" "62.6653 72.4848 74.4151 86.0721 24.8044 34.6558 20.7194 0.0507736 0"
-					"row4" "61.6925 77.3114 79.5408 97.6051 40.0179 35.3342 22.2596 0.573122 0"
-					"row5" "48.3205 75.172 84.7342 108.425 76.1974 35.5744 23.049 0.852463 0"
-					"row6" "34.6896 66.2606 90.6058 119.827 117.659 37.5558 24.5105 0.878151 0"
-					"row7" "19.2613 41.0657 99.5404 127.025 155.079 47.5359 27.5968 0.649171 0"
-					"row8" "7.3893 13.6124 108.625 137.109 174.626 64.2634 35.5395 3.80784 0"
+					"row4" "61.6925 77.3114 79.5408 97.6051 50.1563 35.3342 22.2596 0.573122 0"
+					"row5" "48.3205 75.172 84.7342 108.425 74.1064 35.5744 23.049 0.852463 0"
+					"row6" "34.6896 66.2606 90.6058 119.827 89.4737 37.5558 24.5105 0.878151 0"
+					"row7" "19.2613 41.0657 99.5404 127.025 104.94 47.5359 27.5968 0.649171 0"
+					"row8" "7.3893 13.6124 108.625 137.109 120.104 64.2634 35.5395 3.80784 0"
 				}
 				offsets
 				{
@@ -8246,7 +8246,7 @@ world
 		{
 			"id" "15222"
 			"plane" "(1024 -7040 -15) (1024 -5632 -15) (1984 -6016 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -8405,7 +8405,7 @@ world
 		{
 			"id" "15240"
 			"plane" "(1024 -3840 -15) (2048 -3840 -15) (2048 -4736 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -8723,7 +8723,7 @@ world
 		{
 			"id" "15162"
 			"plane" "(1984 -6016 -15) (1984 -5376 -15) (3072 -5184 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -8882,7 +8882,7 @@ world
 		{
 			"id" "15168"
 			"plane" "(1984 -5376 -15) (2048 -4736 -15) (3072 -4736 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -9041,7 +9041,7 @@ world
 		{
 			"id" "15234"
 			"plane" "(1984 -5376 -15) (1024 -5184 -15) (1024 -4736 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -9200,7 +9200,7 @@ world
 		{
 			"id" "15228"
 			"plane" "(1984 -5376 -15) (1984 -6016 -15) (1024 -5632 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -11744,8 +11744,8 @@ world
 		{
 			"id" "12372"
 			"plane" "(-4608 -6656 -15) (-4608 -5632 -15) (-2048 -5632 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "21"
@@ -11903,8 +11903,8 @@ world
 		{
 			"id" "12378"
 			"plane" "(-6656 -6656 -15) (-6656 -5632 -15) (-4608 -5632 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -12857,8 +12857,8 @@ world
 		{
 			"id" "13860"
 			"plane" "(1024 -3839.97 -15) (-0 -3328.03 -15) (-0 -2304 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.996] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -12920,15 +12920,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
+					"row0" "255 255 255 255 255 255 255 255 255"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 255"
 				}
 				triangle_tags
 				{
@@ -14951,9 +14951,9 @@ world
 				}
 				distances
 				{
-					"row0" "0 0 17.9002 98.6021 175.12 65.5523 33.5144 5.5481 31.637"
-					"row1" "0 0 32.9261 115.559 156.437 63.5449 32.3443 9.32768 66.7429"
-					"row2" "0 0 31.0919 133.988 135.029 61.1288 29.0215 0.723236 109.485"
+					"row0" "0 0 17.9002 111.207 175.12 65.5523 33.5144 5.5481 31.637"
+					"row1" "0 0 32.9261 141.927 170.172 63.5449 32.3443 9.32768 66.7429"
+					"row2" "0 0 31.0919 147.618 162.88 61.1288 29.0215 0.723236 109.485"
 					"row3" "0 0 27.27 130.024 92.9376 52.9101 26.2803 15.4583 141.727"
 					"row4" "2.96055 0 21.7621 119.371 58.5479 51.4338 25.1039 46.4563 166.861"
 					"row5" "10 2.07601 35.8614 109.033 50.2098 46.9486 22.5872 89.7082 183.802"
@@ -15429,14 +15429,14 @@ world
 				distances
 				{
 					"row0" "28.4171 0 11.0238 64.2881 103.561 65.1155 35.1107 26.97 11.3872"
-					"row1" "38.5388 0 7.82707 62.5033 102.332 59.682 31.7053 22.2341 7.80635"
-					"row2" "40 0 3.70103 61.1391 95.6469 58.12 30.7306 17.665 3.91211"
-					"row3" "39.6275 0 17.5675 59.4674 112.417 61.6512 30.3544 13.9976 0"
-					"row4" "28.8923 0 23.6527 60.48 138.048 66.9142 31.0911 10.0473 0"
+					"row1" "38.5388 0 7.82707 76.4805 93.9383 59.682 31.7053 22.2341 7.80635"
+					"row2" "40 0 3.70103 88.2361 85.8141 58.12 30.7306 17.665 3.91211"
+					"row3" "39.6275 0 17.5675 84.0883 99.4621 61.6512 30.3544 13.9976 0"
+					"row4" "28.8923 0 23.6527 61.5253 138.048 66.9142 31.0911 10.0473 0"
 					"row5" "13.2045 0 25.0208 64.5321 165.581 69.8749 32.002 0 0"
 					"row6" "0 0 21.0836 71.6203 170.497 70.1778 34.8716 0 1.28313"
-					"row7" "0 0 20.9415 88.2225 171.232 69.225 34.3189 0 13.3048"
-					"row8" "0 0 17.9002 98.6021 175.12 65.5523 33.5144 5.5481 31.637"
+					"row7" "0 0 20.9415 97.1919 171.232 69.225 34.3189 0 13.3048"
+					"row8" "0 0 17.9002 111.207 175.12 65.5523 33.5144 5.5481 31.637"
 				}
 				offsets
 				{
@@ -15465,10 +15465,10 @@ world
 				alphas
 				{
 					"row0" "255 255 255 255 255 255 255 255 255"
-					"row1" "255 255 255 255 255 255 255 255 255"
-					"row2" "255 255 255 255 255 255 255 255 255"
-					"row3" "255 255 255 255 255 255 255 255 255"
-					"row4" "255 255 255 255 255 255 255 255 255"
+					"row1" "255 255 80 255 255 80 255 255 255"
+					"row2" "255 130 0 255 30 155 255 255 255"
+					"row3" "255 105 130 30 205 255 255 255 255"
+					"row4" "255 5 255 105 255 255 255 255 255"
 					"row5" "255 255 255 255 255 255 255 255 255"
 					"row6" "255 255 255 255 255 255 255 255 255"
 					"row7" "255 255 255 255 255 255 255 255 255"
@@ -19535,8 +19535,8 @@ world
 		{
 			"id" "14166"
 			"plane" "(1024 -5632 -15) (0 -5632 -15) (0 -4480 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.996] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -19694,8 +19694,8 @@ world
 		{
 			"id" "14172"
 			"plane" "(0 -3328 -15) (1024 -3840 -15) (1024 -4736 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.996] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -19853,8 +19853,8 @@ world
 		{
 			"id" "14178"
 			"plane" "(-4608 -4992 -15) (-4608 -5632 -15) (-5632 -5632 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -20012,8 +20012,8 @@ world
 		{
 			"id" "14184"
 			"plane" "(-5632 -5632 -15) (-6656 -5632 -15) (-6656 -4992 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -20171,8 +20171,8 @@ world
 		{
 			"id" "14190"
 			"plane" "(-5632 -4352 -15) (-4608 -4352 -15) (-4608 -4992 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -20330,8 +20330,8 @@ world
 		{
 			"id" "14196"
 			"plane" "(-5632 -4992 -15) (-6656 -4992 -15) (-6656 -4352 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -20489,8 +20489,8 @@ world
 		{
 			"id" "14202"
 			"plane" "(-3328 -5632 -15) (-4608 -5632 -15) (-4608 -4992 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -20648,8 +20648,8 @@ world
 		{
 			"id" "14208"
 			"plane" "(-3328 -4736 -15) (-4608 -4992 -15) (-4608 -4352 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -20807,8 +20807,8 @@ world
 		{
 			"id" "14214"
 			"plane" "(-1024 -5632 -15) (-2048 -5632 -15) (-2048 -4480 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -20966,8 +20966,8 @@ world
 		{
 			"id" "14220"
 			"plane" "(-1024 -4480 -15) (-2048 -4480 -15) (-2048 -3328 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -21125,8 +21125,8 @@ world
 		{
 			"id" "14226"
 			"plane" "(-4608 -4352 -15) (-5632 -4352 -15) (-5632 -3456 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -21188,15 +21188,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
+					"row0" "255 255 255 255 255 255 255 255 255"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 255"
 				}
 				triangle_tags
 				{
@@ -21284,8 +21284,8 @@ world
 		{
 			"id" "14232"
 			"plane" "(-6656 -4352 -15) (-6656 -3328 -15) (-5632 -3456 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -21347,15 +21347,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
+					"row0" "255 255 255 255 255 255 255 255 255"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 255"
 				}
 				triangle_tags
 				{
@@ -21443,8 +21443,8 @@ world
 		{
 			"id" "14238"
 			"plane" "(-5632 -3456 -15) (-5632 -2304 -15) (-4608 -2048 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -21506,15 +21506,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 127.5"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 140"
+					"row0" "255 255 255 255 255 255 255 255 127.5"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 115"
 				}
 				triangle_tags
 				{
@@ -21602,8 +21602,8 @@ world
 		{
 			"id" "14244"
 			"plane" "(-5632 -3456 -15) (-6656 -3328 -15) (-6656 -2560 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -21665,15 +21665,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 140"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 127.5"
+					"row0" "255 255 255 255 255 255 255 255 115"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 127.5"
 				}
 				triangle_tags
 				{
@@ -21761,8 +21761,8 @@ world
 		{
 			"id" "14250"
 			"plane" "(-4608 -4352 -15) (-4608 -3584 -15) (-3328 -3200 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -21824,15 +21824,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
+					"row0" "255 255 255 255 255 255 255 255 255"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 255"
 				}
 				triangle_tags
 				{
@@ -21920,8 +21920,8 @@ world
 		{
 			"id" "14256"
 			"plane" "(-3328 -3200 -15) (-4608 -3584 -15) (-4608 -2048 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -21983,15 +21983,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 85"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 127.5"
+					"row0" "255 255 255 255 255 255 255 255 170"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 127.5"
 				}
 				triangle_tags
 				{
@@ -22079,8 +22079,8 @@ world
 		{
 			"id" "14262"
 			"plane" "(-2048 -3328 -15) (-2048 -2816 -15) (-1024 -2560 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -22142,15 +22142,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
+					"row0" "255 255 255 255 255 255 255 255 255"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 255"
 				}
 				triangle_tags
 				{
@@ -22238,8 +22238,8 @@ world
 		{
 			"id" "14268"
 			"plane" "(-1024 -1984 -15) (-1024 -2560 -15) (-2048 -2816 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -23033,7 +23033,7 @@ world
 		{
 			"id" "15174"
 			"plane" "(3072 -3840 -15) (3072 -4736 -15) (2048 -4736 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -23192,11 +23192,11 @@ world
 		{
 			"id" "15180"
 			"plane" "(3072 -3840 -15) (2048 -3840 -15) (2048 -2816 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "21"
+			"lightmapscale" "17"
 			"smoothing_groups" "0"
 			dispinfo
 			{
@@ -23255,15 +23255,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
+					"row0" "255 255 255 255 255 255 255 255 255"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 255"
 				}
 				triangle_tags
 				{
@@ -23351,11 +23351,11 @@ world
 		{
 			"id" "15186"
 			"plane" "(2048 -2048 -15) (3072 -2048 -15) (3072 -2816 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "21"
+			"lightmapscale" "17"
 			"smoothing_groups" "0"
 			dispinfo
 			{
@@ -23414,15 +23414,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 127.5"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 127.5"
+					"row0" "255 255 255 255 255 255 255 255 127.5"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 127.5"
 				}
 				triangle_tags
 				{
@@ -23510,8 +23510,8 @@ world
 		{
 			"id" "14370"
 			"plane" "(0 -5632 -15) (-1024 -5632 -15) (-1024 -4480 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -23669,8 +23669,8 @@ world
 		{
 			"id" "14376"
 			"plane" "(0 -3328 -15) (0 -4480 -15) (-1024 -4480 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -23828,8 +23828,8 @@ world
 		{
 			"id" "14382"
 			"plane" "(0 -3328 -15) (-1024 -3328 -15) (-1024 -2560 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -23891,15 +23891,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
+					"row0" "255 255 255 255 255 255 255 255 255"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 255"
 				}
 				triangle_tags
 				{
@@ -23987,8 +23987,8 @@ world
 		{
 			"id" "14388"
 			"plane" "(0 -1920 -15) (0 -2304 -15) (-1024 -2560 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -24146,8 +24146,8 @@ world
 		{
 			"id" "14400"
 			"plane" "(-2048 -4480 -15) (-2048 -5632 -15) (-3328 -5632 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -24305,8 +24305,8 @@ world
 		{
 			"id" "14406"
 			"plane" "(-3328 -3840 -15) (-2048 -3328 -15) (-2048 -4480 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -24464,8 +24464,8 @@ world
 		{
 			"id" "14412"
 			"plane" "(-2048 -3328 -15) (-3328 -3840 -15) (-3328 -3200 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -24527,15 +24527,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
+					"row0" "255 255 255 255 255 255 255 255 255"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 255"
 				}
 				triangle_tags
 				{
@@ -24623,8 +24623,8 @@ world
 		{
 			"id" "14418"
 			"plane" "(-3328 -3200 -15) (-3328 -2048 -15) (-2048 -2048 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -24686,15 +24686,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 127.5"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 85"
+					"row0" "255 255 255 255 255 255 255 255 127.5"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 170"
 				}
 				triangle_tags
 				{
@@ -24782,8 +24782,8 @@ world
 		{
 			"id" "14430"
 			"plane" "(-2048 -6656 -15) (-2048 -5632 -15) (-1024 -5632 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -24941,8 +24941,8 @@ world
 		{
 			"id" "14436"
 			"plane" "(0 -5632 -15) (1024 -5632 -15) (1024 -7040 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.996] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -25100,7 +25100,7 @@ world
 		{
 			"id" "15150"
 			"plane" "(1984 -6016 -15) (3072 -5632 -15) (3072 -7936 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -25259,8 +25259,8 @@ world
 		{
 			"id" "14448"
 			"plane" "(-1024 -5632 -15) (-0 -5632 -15) (-0 -6912 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.998] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -28121,11 +28121,11 @@ world
 		{
 			"id" "15258"
 			"plane" "(1024 -2048 -15) (2048 -2048 -15) (2048 -2816 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "21"
+			"lightmapscale" "17"
 			"smoothing_groups" "0"
 			dispinfo
 			{
@@ -28184,15 +28184,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 127.5"
-					"row1" "0 0 0 0 0 0 0 0 255"
-					"row2" "0 0 0 0 0 0 0 0 255"
-					"row3" "0 0 0 0 0 0 0 0 255"
-					"row4" "0 0 0 0 0 0 0 0 255"
-					"row5" "0 0 0 0 0 0 0 0 255"
-					"row6" "0 0 0 0 0 0 0 0 255"
-					"row7" "0 0 0 0 0 0 0 0 255"
-					"row8" "0 0 0 0 0 0 0 0 127.5"
+					"row0" "255 255 255 255 255 255 255 255 127.5"
+					"row1" "255 255 255 255 255 255 255 255 0"
+					"row2" "255 255 255 255 255 255 255 255 0"
+					"row3" "255 255 255 255 255 255 255 255 0"
+					"row4" "255 255 255 255 255 255 255 255 0"
+					"row5" "255 255 255 255 255 255 255 255 0"
+					"row6" "255 255 255 255 255 255 255 255 0"
+					"row7" "255 255 255 255 255 255 255 255 0"
+					"row8" "255 255 255 255 255 255 255 255 127.5"
 				}
 				triangle_tags
 				{
@@ -28280,11 +28280,11 @@ world
 		{
 			"id" "15312"
 			"plane" "(2048 -2816 -15) (2048 -3840 -15) (1024 -3840 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "21"
+			"lightmapscale" "17"
 			"smoothing_groups" "0"
 			dispinfo
 			{
@@ -28343,15 +28343,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
+					"row0" "255 255 255 255 255 255 255 255 255"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 255"
 				}
 				triangle_tags
 				{
@@ -29614,8 +29614,8 @@ world
 		{
 			"id" "15474"
 			"plane" "(1024 -2815.93 -15) (-0 -2304 -15) (0 -1920.02 -15)"
-			"material" "DEV/DEV_BLENDMEASURE"
-			"uaxis" "[1 0 0 -127.996] 0.25"
+			"material" "MAPS/TERRAIN/BLEND_GRASS_GERMANY_HR_DIRT_001"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "17"
@@ -29677,15 +29677,15 @@ world
 				}
 				alphas
 				{
-					"row0" "0 0 0 0 0 0 0 0 127.5"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 127.5"
+					"row0" "255 255 255 255 255 255 255 255 127.5"
+					"row1" "255 255 255 255 255 255 255 255 255"
+					"row2" "255 255 255 255 255 255 255 255 255"
+					"row3" "255 255 255 255 255 255 255 255 255"
+					"row4" "255 255 255 255 255 255 255 255 255"
+					"row5" "255 255 255 255 255 255 255 255 255"
+					"row6" "255 255 255 255 255 255 255 255 255"
+					"row7" "255 255 255 255 255 255 255 255 255"
+					"row8" "255 255 255 255 255 255 255 255 127.5"
 				}
 				triangle_tags
 				{
@@ -29785,6 +29785,91 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "25420"
+	"classname" "prop_static"
+	"angles" "10.5212 347.82 -11.2683"
+	"disableshadows" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/surgeon/hedge3.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "416.3 5893.95 44.6667"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-12268 -16268]"
+	}
+}
+entity
+{
+	"id" "25466"
+	"classname" "prop_static"
+	"angles" "4.93138 359.044 -3.37379"
+	"disableshadows" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/surgeon/hedge3.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "488.413 6516.02 11.1661"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-12268 -16268]"
+	}
+}
+entity
+{
+	"id" "25513"
+	"classname" "func_instance"
+	"angles" "-0 -165 0"
+	"file" "instance/stable_01.vmf"
+	"fixup_style" "0"
+	"origin" "-1280 5568 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "25608"
+	"classname" "prop_static"
+	"angles" "0 184 0"
+	"disableshadows" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_foliage/bushes_tropical_large01.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1001.45 5535.43 125.44"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-16268 -14768]"
 	}
 }
 entity
@@ -31349,29 +31434,6 @@ entity
 }
 entity
 {
-	"id" "20208"
-	"classname" "prop_static"
-	"angles" "11.4375 270.541 0.415863"
-	"disableshadows" "1"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/surgeon/hedge3.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-1075.09 5650.4 73.7585"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[-12268 -16268]"
-	}
-}
-entity
-{
 	"id" "20236"
 	"classname" "prop_static"
 	"angles" "11.4499 282.934 -2.64497"
@@ -31753,52 +31815,6 @@ entity
 	"skin" "0"
 	"solid" "0"
 	"origin" "-1185.99 -1737.36 23.4177"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "20777"
-	"classname" "prop_static"
-	"angles" "-0.00871574 265.5 -0.999962"
-	"disableshadows" "1"
-	"fademaxdist" "1500"
-	"fademindist" "1024"
-	"fadescale" "1"
-	"model" "models/brecourt/foliage/long_grass_05.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-958.585 -1721.6 2.5482"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "20817"
-	"classname" "prop_static"
-	"angles" "0.226566 268.506 1.9908"
-	"disableshadows" "1"
-	"fademaxdist" "1500"
-	"fademindist" "1024"
-	"fadescale" "1"
-	"model" "models/brecourt/foliage/long_grass_05.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-772.929 -1714.1 7.07036"
 	editor
 	{
 		"color" "255 255 0"
@@ -34904,8 +34920,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[4665.3 -2817.56 197.27]"
-		"look" "[4653.51 -2675.84 198.262]"
+		"position" "[-63.7067 -4528.1 409.814]"
+		"look" "[-140.308 -4410.85 385.119]"
 	}
 }
 cordons

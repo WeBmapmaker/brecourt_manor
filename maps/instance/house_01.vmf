@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "54"
+	"mapversion" "58"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "54"
+	"mapversion" "58"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -99,82 +99,6 @@ world
 		editor
 		{
 			"color" "0 122 155"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "4920"
-		side
-		{
-			"id" "608"
-			"plane" "(-320 192 448) (384 192 448) (384 -256 448)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "609"
-			"plane" "(-320 -256 -64) (384 -256 -64) (384 192 -64)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "610"
-			"plane" "(-320 192 448) (-320 -256 448) (-320 -256 -64)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "611"
-			"plane" "(384 192 -64) (384 -256 -64) (384 -256 448)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "612"
-			"plane" "(384 192 448) (-320 192 448) (-320 192 -64)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "613"
-			"plane" "(384 -256 -64) (-320 -256 -64) (-320 -256 448)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 233 194"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2600,9 +2524,9 @@ world
 		{
 			"id" "465"
 			"plane" "(-256 -192 0) (-256 128 0) (-112 128 0)"
-			"material" "JAKHALZ/MATERIALS/MOG_WOOD_04"
-			"uaxis" "[0.707106 0.707107 0 109] 0.15"
-			"vaxis" "[-0.707107 0.707107 0 536] 0.15"
+			"material" "MAPS/WOOD/SIC_WOOD_01"
+			"uaxis" "[0 1 0 725.333] 0.15"
+			"vaxis" "[1 0 0 85.3333] 0.15"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5366,7 +5290,7 @@ entity
 	"id" "4192"
 	"classname" "prop_static"
 	"angles" "-6.4841 359.545 4.02579"
-	"disableshadows" "0"
+	"disableshadows" "1"
 	"fademaxdist" "2048"
 	"fademindist" "2048"
 	"fadescale" "1"
@@ -7313,7 +7237,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "maps/overlay/france_sign_01"
-	"sides" "64 410"
+	"sides" "64 583"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-96 -64 0"

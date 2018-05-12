@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "26"
+	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "26"
+	"mapversion" "27"
 	"classname" "worldspawn"
-	"skyname" "ramadisky"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "ramadisky"
 	"timeofday" "5"
 	solid
 	{
@@ -748,7 +748,6 @@ entity
 	"LifetimeMax" "5"
 	"LifetimeMin" "3"
 	"nowind" "1"
-	"origin" "-1960 7469 -179"
 	"SizeMax" "6"
 	"SizeMin" "2"
 	"SpawnRate" "40"
