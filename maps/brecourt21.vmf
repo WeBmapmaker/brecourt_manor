@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "637"
+	"mapversion" "642"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "637"
+	"mapversion" "642"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "foliage_brecourt.vbsp"
@@ -34944,6 +34944,116 @@ world
 }
 entity
 {
+	"id" "72808"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "-4160 320 -101.812"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "maps/overlay/crater02"
+	"sides" "14478"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-288 -352 0"
+	"uv1" "-288 352 0"
+	"uv2" "288 352 0"
+	"uv3" "288 -352 0"
+	"origin" "-4160 320 -101.812"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "72844"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "-2784 3328 -95.0414"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "maps/overlay/sic_crater_01"
+	"sides" "14496"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-224 -192 0"
+	"uv1" "-224 192 0"
+	"uv2" "224 192 0"
+	"uv3" "224 -192 0"
+	"origin" "-2784 3328 -95.0414"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "72880"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-0 0 1"
+	"BasisOrigin" "-960 3328 -128.862"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 -0"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "maps/overlay/sic_crater_01"
+	"sides" "14472 14466"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-192 -192 0"
+	"uv1" "-192 192 0"
+	"uv2" "192 192 0"
+	"uv3" "192 -192 0"
+	"origin" "-960 3328 -128.862"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "72920"
+	"classname" "prop_static"
+	"angles" "-11.5 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_foliage/urban_tree_giant_dario.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "420.801 3328 -59.2383"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-11268 1500]"
+	}
+}
+entity
+{
 	"id" "70611"
 	"classname" "prop_static"
 	"angles" "0 270 0"
@@ -50805,8 +50915,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1010.08 7253.87 5.06819]"
-		"look" "[1069.49 7160.28 -84.0614]"
+		"position" "[113.637 2618.62 -93.6217]"
+		"look" "[194.79 2735.42 -91.6358]"
 	}
 }
 cordons
