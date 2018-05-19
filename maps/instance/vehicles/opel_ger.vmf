@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "91"
+	"mapversion" "99"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "91"
+	"mapversion" "99"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -115,6 +115,10 @@ entity
 	"target" "destination_door_passenger_in"
 	"targetname" "teleport_door_passenger_in"
 	"UseLandmarkAngles" "0"
+	connections
+	{
+		"OnStartTouch" "!activatorSetParent0-1"
+	}
 	solid
 	{
 		"id" "1178"
@@ -226,6 +230,7 @@ entity
 	{
 		"OnPressed" "teleport_door_passenger_inDisable0.1-1"
 		"OnPressed" "teleport_door_passenger_inEnable0-1"
+		"OnPressed" "opel_sound_passengerPlaySound0-1"
 	}
 	solid
 	{
@@ -565,6 +570,7 @@ entity
 	connections
 	{
 		"OnTrigger" "opel_thruster_middleActivate0-1"
+		"OnTrigger" "opel_soundPlaySound0-1"
 	}
 	"origin" "-192 192 24"
 	editor
@@ -663,6 +669,7 @@ entity
 		"OnTrigger" "opel_thruster_middleDeactivate0-1"
 		"OnTrigger" "opel_thruster_back-leftDeactivate0-1"
 		"OnTrigger" "opel_thruster_back-rightDeactivate0-1"
+		"OnTrigger" "opel_soundStopSound0-1"
 	}
 	"origin" "-160 192 24"
 	editor
@@ -811,6 +818,102 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2751"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "soundscape/emitters/loop/truck_engine_loop.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "2400"
+	"SourceEntityName" "opel_mover"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "opel_sound"
+	"volstart" "10"
+	"origin" "0 104 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "2829"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "physics/doors/metaldoors/metal_door_09_close.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1024"
+	"SourceEntityName" "button_door_pilot_in"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "opel_sound_driver"
+	"volstart" "10"
+	"origin" "-48 48 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "2847"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "physics/doors/metaldoors/metal_door_09_close.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1024"
+	"SourceEntityName" "button_door_passenger_in"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "opel_sound_passenger"
+	"volstart" "10"
+	"origin" "48 48 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
 	}
 }
 entity
@@ -2350,6 +2453,7 @@ entity
 	{
 		"OnPressed" "teleport_door_pilot_inDisable0.1-1"
 		"OnPressed" "teleport_door_pilot_inEnable0-1"
+		"OnPressed" "opel_sound_driverPlaySound0-1"
 	}
 	solid
 	{
