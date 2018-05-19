@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "528"
+	"mapversion" "531"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "64"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "528"
+	"mapversion" "531"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "foliage_brecourt.vbsp"
@@ -18469,12 +18469,12 @@ world
 				{
 					"row0" "1.63646 7.13515 7.7172 6.77526 5.83332 26.7399 3.67823 2.68337 5.33696"
 					"row1" "0 0 10 71.05 90 77.8505 90 80.2669 81.2596"
-					"row2" "14.2923 0 30 75.672 90 90 90 90 90"
-					"row3" "81.7557 0 18.0926 82.9922 90 90 90 90 90"
-					"row4" "78.2783 15.0762 35.863 90 60 90 90 90 90"
-					"row5" "81.8131 65.2849 51.718 60 60 90 90 90 90"
-					"row6" "58.0825 77.6148 49.7049 60 66.5695 90 90 90 90"
-					"row7" "0 85.346 94.4792 49.9253 66.1008 90 90 90 67.7834"
+					"row2" "14.2923 0 30 75.672 90 80 80 90 90"
+					"row3" "81.7557 0 18.0926 82.9922 90 72.2517 79.0869 90 90"
+					"row4" "78.2783 15.0762 35.863 90 88.6944 70 70 90 90"
+					"row5" "81.8131 65.2849 51.718 60 89 70 84.3974 90 90"
+					"row6" "58.0825 77.6148 49.7049 60 66.5695 46.4974 75.0281 90 90"
+					"row7" "0 85.346 94.4792 49.9253 66.1008 86.8419 79.6101 90 67.7834"
 					"row8" "0 41.6556 93.8333 97.8687 52.7303 90 89.7852 83.1188 27.1707"
 				}
 				offsets
@@ -32408,6 +32408,22 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "47678"
+	"classname" "func_instance"
+	"angles" "-0 -180 0"
+	"file" "instance/church_chemin.vmf"
+	"fixup_style" "0"
+	"origin" "4096 6080 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -46869,8 +46885,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[5263.6 5245.52 99.0621]"
-		"look" "[5236.96 5105.82 97.0723]"
+		"position" "[3861.44 5435.92 225.767]"
+		"look" "[3902.41 5562.04 174.329]"
 	}
 }
 cordons

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "3"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "4"
 	"classname" "worldspawn"
-	"skyname" "ramadisky"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "ramadisky"
 	"timeofday" "5"
 	solid
 	{
@@ -102,6 +102,112 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "1175"
+	"classname" "func_brush"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"InputFilter" "0"
+	"invert_exclusion" "0"
+	"origin" "2 -4 3.5"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"solidbsp" "0"
+	"Solidity" "2"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "1176"
+		side
+		{
+			"id" "72"
+			"plane" "(-174 -120 3.9998) (-174 -120 2.99589) (-174 112 2.9998)"
+			"material" "MAPS/WOOD/SIC_WOOD_04"
+			"uaxis" "[0 1 0 -64] 0.125"
+			"vaxis" "[0 0 1 -416] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "71"
+			"plane" "(178 112 3.9998) (178 112 2.99589) (178 -120 2.9998)"
+			"material" "MAPS/WOOD/SIC_WOOD_04"
+			"uaxis" "[0 1 0 -64] 0.125"
+			"vaxis" "[0 0 -1 416] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "70"
+			"plane" "(178 -120 3.9998) (178 -120 2.99589) (-174 -120 2.9998)"
+			"material" "MAPS/WOOD/SIC_WOOD_04"
+			"uaxis" "[0 0 1 -32] 0.125"
+			"vaxis" "[1 0 0 -16] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "69"
+			"plane" "(-174 112 3.9998) (-174 112 2.99589) (178 112 2.9998)"
+			"material" "MAPS/WOOD/SIC_WOOD_04"
+			"uaxis" "[0 0 -1 864] 0.125"
+			"vaxis" "[1 0 0 -16] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "68"
+			"plane" "(-174 112 3) (-174 -120 3) (178 -120 3)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 48] 0.25"
+			"vaxis" "[-1 0 0 8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "67"
+			"plane" "(-174 -120 4) (-174 112 4) (178 112 4)"
+			"material" "MAPS/WOOD/SIC_WOOD_04"
+			"uaxis" "[0 1 0 -64] 0.125"
+			"vaxis" "[1 0 0 -16] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 2000]"
 	}
 }
 entity

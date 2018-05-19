@@ -1,0 +1,20 @@
+"WorldVertexTransition"
+{
+	"$basetexture"        		  "maps/brecourt/terrain/hr_dirt_normandy_01"
+	"$detail"             		  "asphalt/hr_c/hr_asphalt_001_detail"
+	"$detailscale"      	                  ".15"
+	"$detailblendfactor"  	  "0.5"
+	"$surfaceprop"                          "dirt"
+	
+	"%detailtype" "af_soil_dry"
+
+	"$basetexture2"        	  "nature/hr_c/hr_grass_001_color"
+	"$detail2"             		  "nature/hr_c/hr_grass_001_detail"
+	"$detailscale2"      	                  ".15"
+	"$detailblendfactor2"  	  "1.0"
+	"$surfaceprop2"                        "grass"
+	
+
+	"$blendmodulatetexture"	 "nature/hr_c/hr_grass_001_blend"
+		
+}

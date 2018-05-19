@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "7"
+	"mapversion" "15"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,51 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "15"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "ramadisky"
 	"timeofday" "5"
+}
+entity
+{
+	"id" "575"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"Magnitude" "1"
+	"MaxDelay" "40"
+	"spawnflags" "320"
+	"targetname" "pole_spark"
+	"TrailLength" "1"
+	"origin" "0.630098 42.4842 362.223"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "593"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"Magnitude" "1"
+	"MaxDelay" "40"
+	"spawnflags" "320"
+	"targetname" "pole_spark"
+	"TrailLength" "1"
+	"origin" "-0.700405 -26.851 384.94"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
 }
 entity
 {
@@ -57,9 +95,10 @@ entity
 	"TeamNum" "0"
 	connections
 	{
-		"OnBreak" "pole_top04EnableMotion01"
+		"OnBreak" "pole_top04EnableMotion0-1"
 		"OnBreak" "pole_top04EnableDraw0-1"
-		"OnBreak" "wire_fallEnableMotion01"
+		"OnBreak" "wire_fallKill0-1"
+		"OnBreak" "pole_sparkKill0-1"
 	}
 	editor
 	{
@@ -106,9 +145,9 @@ entity
 	"shadowcastdist" "0"
 	"shadowdepthnocache" "0"
 	"skin" "0"
-	"spawnflags" "267"
+	"spawnflags" "271"
 	"targetname" "pole_top04"
-	"origin" "-0.693237 -0.754063 237.979"
+	"origin" "-0.72818 0.119486 237.979"
 	editor
 	{
 		"color" "220 30 220"
@@ -135,7 +174,6 @@ entity
 	"MinAnimTime" "5"
 	"model" "models/static_junk/cable_ceiling_01a.mdl"
 	"modelscale" "1.0"
-	"parentname" "pole_top04"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -255,7 +293,6 @@ entity
 	"MinAnimTime" "5"
 	"model" "models/static_junk/cable_ceiling_01b.mdl"
 	"modelscale" "1.0"
-	"parentname" "pole_top04"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"

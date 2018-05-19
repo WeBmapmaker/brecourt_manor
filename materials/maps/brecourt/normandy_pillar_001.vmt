@@ -1,0 +1,6 @@
+lightmappedgeneric
+{
+	"$basetexture"            "concrete/hr_c/hr_concrete_wall_006_color"
+	"$bumpmap"                "concrete/hr_c/hr_concrete_wall_006_normals"
+	"$surfaceprop"            "concrete"
+}
