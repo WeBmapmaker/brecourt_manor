@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "99"
+	"mapversion" "121"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "99"
+	"mapversion" "121"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -117,7 +117,9 @@ entity
 	"UseLandmarkAngles" "0"
 	connections
 	{
-		"OnStartTouch" "!activatorSetParent0-1"
+		"OnStartTouch" "!activatorSetParentopel_model1-1"
+		"OnStartTouch" "button_door_passenger_inLock0-1"
+		"OnStartTouch" "!activatorSetDamageFilteropel_filter0-1"
 	}
 	solid
 	{
@@ -333,6 +335,8 @@ entity
 		"OnPressed" "teleport_door_passenger_outEnable0-1"
 		"OnPressed" "teleport_door_passenger_outDisable0.1-1"
 		"OnPressed" "button_door_passenger_inUnlock0-1"
+		"OnPressed" "opel_sound_passengerPlaySound0-1"
+		"OnPressed" "!activatorSetParent0-1"
 	}
 	solid
 	{
@@ -431,7 +435,8 @@ entity
 	"UseLandmarkAngles" "0"
 	connections
 	{
-		"OnEndTouch" "button_door_passenger_inUnlock0-1"
+		"OnStartTouch" "button_door_passenger_inUnlock0-1"
+		"OnStartTouch" "!activatorSetDamageFilter0-1"
 	}
 	solid
 	{
@@ -550,6 +555,7 @@ entity
 		"UnpressedMoveRight" "func_opel_reset_rightTrigger0-1"
 		"PressedBack" "func_opel_move_backwardTrigger0-1"
 		"UnpressedBack" "func_opel_stopTrigger0-1"
+		"PressedAttack" "!activator0-1"
 	}
 	"origin" "-16 104 80"
 	editor
@@ -571,6 +577,7 @@ entity
 	{
 		"OnTrigger" "opel_thruster_middleActivate0-1"
 		"OnTrigger" "opel_soundPlaySound0-1"
+		"OnTrigger" "opel_smokeTurnOn0-1"
 	}
 	"origin" "-192 192 24"
 	editor
@@ -670,6 +677,7 @@ entity
 		"OnTrigger" "opel_thruster_back-leftDeactivate0-1"
 		"OnTrigger" "opel_thruster_back-rightDeactivate0-1"
 		"OnTrigger" "opel_soundStopSound0-1"
+		"OnTrigger" "opel_smokeTurnOff0-1"
 	}
 	"origin" "-160 192 24"
 	editor
@@ -835,8 +843,8 @@ entity
 	"message" "soundscape/emitters/loop/truck_engine_loop.wav"
 	"pitch" "100"
 	"pitchstart" "100"
-	"preset" "0"
-	"radius" "2400"
+	"preset" "3"
+	"radius" "3400"
 	"SourceEntityName" "opel_mover"
 	"spawnflags" "16"
 	"spindown" "0"
@@ -868,7 +876,7 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
-	"radius" "1024"
+	"radius" "1800"
 	"SourceEntityName" "button_door_pilot_in"
 	"spawnflags" "48"
 	"spindown" "0"
@@ -900,7 +908,7 @@ entity
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
-	"radius" "1024"
+	"radius" "1800"
 	"SourceEntityName" "button_door_passenger_in"
 	"spawnflags" "48"
 	"spindown" "0"
@@ -914,6 +922,53 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "2984"
+	"classname" "env_smokestack"
+	"angles" "-90 0 0"
+	"BaseSpread" "20"
+	"EndSize" "30"
+	"InitialState" "0"
+	"JetLength" "180"
+	"parentname" "opel_mover"
+	"Rate" "20"
+	"renderamt" "255"
+	"rendercolor" "162 162 162"
+	"roll" "0"
+	"SmokeMaterial" "particle/SmokeStack.vmt"
+	"Speed" "30"
+	"SpreadSpeed" "15"
+	"StartSize" "20"
+	"targetname" "opel_smoke"
+	"twist" "0"
+	"WindAngle" "0"
+	"WindSpeed" "0"
+	"origin" "-24 -136 23.8424"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "3456"
+	"classname" "filter_damage_type"
+	"damagetype" "1"
+	"Negated" "1"
+	"targetname" "opel_filter"
+	"origin" "0 47 110"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
 	}
 }
 entity
@@ -2276,7 +2331,7 @@ entity
 		side
 		{
 			"id" "705"
-			"plane" "(-16 26 22) (-16 62 22) (16 62 22)"
+			"plane" "(-16 26 22) (-16 68 22) (16 68 22)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
@@ -2287,7 +2342,7 @@ entity
 		side
 		{
 			"id" "704"
-			"plane" "(-16 62 16) (-16 26 16) (16 26 16)"
+			"plane" "(-16 68 16) (-16 26 16) (16 26 16)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
@@ -2298,7 +2353,7 @@ entity
 		side
 		{
 			"id" "703"
-			"plane" "(-16 26 16) (-16 62 16) (-16 62 22)"
+			"plane" "(-16 26 16) (-16 68 16) (-16 68 22)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -8] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2309,7 +2364,7 @@ entity
 		side
 		{
 			"id" "702"
-			"plane" "(16 62 16) (16 26 16) (16 26 22)"
+			"plane" "(16 68 16) (16 26 16) (16 26 22)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -8] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2331,7 +2386,7 @@ entity
 		side
 		{
 			"id" "700"
-			"plane" "(-16 62 16) (16 62 16) (16 62 22)"
+			"plane" "(-16 68 16) (16 68 16) (16 68 22)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2543,6 +2598,8 @@ entity
 	{
 		"OnStartTouch" "opel_gameuiActivate1-1"
 		"OnStartTouch" "!activatorSetParentopel_model1-1"
+		"OnStartTouch" "!activatorSetDamageFilteropel_filter0-1"
+		"OnStartTouch" "button_door_pilot_inLock0-1"
 	}
 	solid
 	{
@@ -2659,6 +2716,7 @@ entity
 		"OnPressed" "opel_gameuiDeactivate0-1"
 		"OnPressed" "!activatorSetParent0-1"
 		"OnPressed" "opel_gameuiDeactivate0-1"
+		"OnPressed" "opel_sound_driverPlaySound0-1"
 	}
 	solid
 	{
@@ -2757,7 +2815,9 @@ entity
 	"UseLandmarkAngles" "0"
 	connections
 	{
-		"OnEndTouch" "button_door_pilot_inUnlock0-1"
+		"OnStartTouch" "button_door_pilot_inUnlock0-1"
+		"OnStartTouch" "opel_gameuiDeactivate0-1"
+		"OnStartTouch" "!activatorSetDamageFilter0-1"
 	}
 	solid
 	{
