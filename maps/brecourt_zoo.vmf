@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "49"
+	"mapversion" "53"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "49"
+	"mapversion" "53"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4942,6 +4942,22 @@ world
 }
 entity
 {
+	"id" "1018"
+	"classname" "func_instance"
+	"angles" "-0 -90 0"
+	"file" "instance/vehicles/opel_ger.vmf"
+	"fixup_style" "0"
+	"origin" "-768 -784 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "898"
 	"classname" "func_instance"
 	"angles" "-0 -90 0"
@@ -4963,7 +4979,7 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instance/vehicles/opel_ger.vmf"
 	"fixup_style" "0"
-	"origin" "-520 -520 0"
+	"origin" "-768 -272 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -5435,6 +5451,9 @@ entity
 		"OnMapSpawn" "tonemap_controlSetAutoExposureMax1.30-1"
 		"OnMapSpawn" "tonemap_controlSetAutoExposureMin.650-1"
 		"OnMapSpawn" "tonemap_controlSetBloomScale1.60-1"
+		"OnMapSpawn" "CL_CommandCommandsv_cheats 10-1"
+		"OnMapSpawn" "CL_CommandCommandsv_cheats 00.2-1"
+		"OnMapSpawn" "CL_CommandCommandsv_player_stuck_tolerance 600.1-1"
 	}
 	"origin" "-80 0 656"
 	editor
@@ -5513,8 +5532,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-565.67 -1489.86 602.593]"
-		"look" "[552.514 9149.77 -5085.76]"
+		"position" "[-294.598 -249.22 336.241]"
+		"look" "[-9904.72 -3005.07 -6509.16]"
 	}
 }
 cordons
