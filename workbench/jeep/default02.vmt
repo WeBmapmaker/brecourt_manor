@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/@vehicles/jeep/default02"
+	$surfaceprop metal
+}
