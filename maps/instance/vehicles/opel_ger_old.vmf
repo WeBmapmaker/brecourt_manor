@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "144"
+	"mapversion" "146"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "53"
+	"mapversion" "146"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1373,7 +1373,6 @@ entity
 		"UnpressedMoveRight" "func_opel_reset_rightTrigger0-1"
 		"PressedBack" "func_opel_move_backwardTrigger0-1"
 		"UnpressedBack" "func_opel_stopTrigger0-1"
-		"PressedAttack" "!activator0-1"
 	}
 	"origin" "-16 104 80"
 	editor
@@ -3415,10 +3414,9 @@ entity
 	connections
 	{
 		"OnStartTouch" "opel_gameuiActivate1-1"
-		"OnStartTouch" "!activatorSetParentopel_model1-1"
+		"OnStartTouch" "!activatorSetParentopel_model0.5-1"
 		"OnStartTouch" "!activatorSetDamageFilteropel_filter0-1"
 		"OnStartTouch" "button_door_pilot_inLock0-1"
-		"OnStartTouch" "!activatorSetParentAttachmentopel_model1-1"
 	}
 	solid
 	{
