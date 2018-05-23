@@ -1,0 +1,17 @@
+WorldVertexTransition
+{
+	$basetexture "nature/hr_c/hr_grass_001_color"
+	$surfaceprop Grass
+
+	$basetexture2 "maps/terrain/hay01"
+	$surfaceprop2 Grass
+
+	$detail "nature/hr_c/hr_grass_001_detail"
+	$detailscale 0.15
+
+	$blendmodulatetexture "de_mirage/base/base_blend1_diffuse"
+
+	%keywords "doi"
+
+	%detailtype normandy_grass
+}

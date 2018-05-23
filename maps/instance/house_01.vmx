@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "61"
+	"mapversion" "63"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "61"
+	"mapversion" "63"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4144,16 +4144,6 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	group
-	{
-		"id" "1451"
-		editor
-		{
-			"color" "200 245 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 }
 entity
 {
@@ -4572,107 +4562,6 @@ entity
 }
 entity
 {
-	"id" "2425"
-	"classname" "func_dustmotes"
-	"Alpha" "128"
-	"Color" "255 214 170"
-	"DistMax" "1024"
-	"Frozen" "0"
-	"LifetimeMax" "5"
-	"LifetimeMin" "3"
-	"nowind" "1"
-	"SizeMax" "12"
-	"SizeMin" "4"
-	"SpawnRate" "40"
-	"SpeedMax" "8"
-	"StartDisabled" "0"
-	solid
-	{
-		"id" "2426"
-		side
-		{
-			"id" "567"
-			"plane" "(80.448 -58.3984 128) (80.448 -58.3984 72) (80.448 -10.3982 72)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 55.9323] 1.5"
-			"vaxis" "[0 0 1 -39.027] 1.6866"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "566"
-			"plane" "(128.448 -10.3982 128) (128.448 -10.3982 72) (128.448 -58.3984 72)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 -1 0 -55.9323] 1.5"
-			"vaxis" "[0 0 1 -39.027] 1.6866"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "565"
-			"plane" "(128.449 -58.398 128) (128.449 -58.398 72) (80.4473 -58.398 72)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 0 -1 39.027] 1.6866"
-			"vaxis" "[-1 0 0 -63.1406] 1.8462"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "564"
-			"plane" "(80.4473 -10.398 128) (80.4473 -10.398 72) (128.449 -10.398 72)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 0 1 -39.027] 1.6866"
-			"vaxis" "[-1 0 0 -63.1406] 1.8462"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "563"
-			"plane" "(80.4473 -10.3984 72) (80.4473 -58.3984 72) (128.449 -58.3984 72)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 55.9323] 1.5"
-			"vaxis" "[-1 0 0 -63.1406] 1.8462"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "562"
-			"plane" "(80.4473 -58.3984 128) (80.4473 -10.398 128) (128.449 -10.3984 128)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 -1 0 -55.9323] 1.5"
-			"vaxis" "[-1 0 0 -63.1406] 1.8462"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "210 131 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "210 131 0"
-		"groupid" "2407"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3500 3500]"
-	}
-}
-entity
-{
 	"id" "2468"
 	"classname" "prop_static"
 	"angles" "0 180 0"
@@ -4770,107 +4659,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 3000]"
-	}
-}
-entity
-{
-	"id" "2485"
-	"classname" "func_dustmotes"
-	"Alpha" "128"
-	"Color" "255 214 170"
-	"DistMax" "1024"
-	"Frozen" "0"
-	"LifetimeMax" "5"
-	"LifetimeMin" "3"
-	"nowind" "1"
-	"SizeMax" "12"
-	"SizeMin" "4"
-	"SpawnRate" "40"
-	"SpeedMax" "8"
-	"StartDisabled" "0"
-	solid
-	{
-		"id" "2486"
-		side
-		{
-			"id" "579"
-			"plane" "(-206.449 -74.3984 128) (-206.449 -74.3984 72) (-206.449 -26.3982 72)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 2.5989] 1.5"
-			"vaxis" "[0 0 1 -39.027] 1.6866"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "578"
-			"plane" "(-158.449 -26.3982 128) (-158.449 -26.3982 72) (-158.449 -74.3984 72)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 -1 0 -2.5989] 1.5"
-			"vaxis" "[0 0 1 -39.027] 1.6866"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "577"
-			"plane" "(-158.449 -74.398 128) (-158.449 -74.398 72) (-206.45 -74.398 72)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 0 -1 39.027] 1.6866"
-			"vaxis" "[-1 0 0 -26.5394] 1.8462"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "576"
-			"plane" "(-206.45 -26.398 128) (-206.45 -26.398 72) (-158.449 -26.398 72)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 0 1 -39.027] 1.6866"
-			"vaxis" "[-1 0 0 -26.5394] 1.8462"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "575"
-			"plane" "(-206.45 -26.3984 72) (-206.45 -74.3984 72) (-158.449 -74.3984 72)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 2.5989] 1.5"
-			"vaxis" "[-1 0 0 -26.5394] 1.8462"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "574"
-			"plane" "(-206.45 -74.3984 128) (-206.45 -26.398 128) (-158.449 -26.3984 128)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 -1 0 -2.5989] 1.5"
-			"vaxis" "[-1 0 0 -26.5394] 1.8462"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "210 131 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "210 131 0"
-		"groupid" "2467"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3500 3500]"
 	}
 }
 entity
@@ -7185,54 +6973,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[12500 3500]"
-	}
-}
-entity
-{
-	"id" "1387"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableshadows" "1"
-	"fademaxdist" "1024"
-	"fademindist" "1024"
-	"fadescale" "1"
-	"model" "models/props_furniture/kitchen_shelf1.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-198 112 67.25"
-	editor
-	{
-		"color" "200 245 0"
-		"groupid" "1451"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[12500 4500]"
-	}
-}
-entity
-{
-	"id" "1391"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"disableshadows" "1"
-	"fademaxdist" "1024"
-	"fademindist" "1024"
-	"fadescale" "1"
-	"model" "models/static_props/prop_bathroom_paper_d.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-226 106 96.25"
-	editor
-	{
-		"color" "200 245 0"
-		"groupid" "1451"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[12500 5000]"
 	}
 }
 entity
