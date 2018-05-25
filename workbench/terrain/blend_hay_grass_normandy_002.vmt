@@ -4,7 +4,7 @@ WorldVertexTransition
 	$surfaceprop Grass
 
 	$basetexture2 "maps/terrain/hay01"
-	$surfaceprop2 Grass
+	$surfaceprop2 dirt
 
 	$detail "nature/hr_c/hr_grass_001_detail"
 	$detailscale 0.15

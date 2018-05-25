@@ -7,10 +7,16 @@
 	"$surfaceprop"                        "grass"
 	
 	"$basetexture2"        		  "maps/brecourt/terrain/hr_dirt_normandy_01"
+	"$normalmap2"			  "maps/brecourt/terrain/hr_dirt_normandy_normal"
+	"$bumpmap2"			  "maps/brecourt/terrain/hr_dirt_normandy_normal"
+	"$refracttexture2"		 "_rt_WaterRefraction"
+	"$reflecttexture2" 		 "_rt_WaterReflection"
+	"$envmap2" 		"env_cubemap"
+	"$reflect2dskybox2" "1"
 	"$detai2l"             		  "asphalt/hr_c/hr_asphalt_001_detail"
 	"$detailscale2"      	                  ".15"
 	"$detailblendfactor2"  	  "0.5"
-	"$surfaceprop2"                          "dirt"
+	"$surfaceprop2"                          "mud"
 
 	"$blendmodulatetexture"	 "nature/hr_c/hr_grass_001_blend"
 	

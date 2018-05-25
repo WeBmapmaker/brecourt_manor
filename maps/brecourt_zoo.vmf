@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "93"
+	"mapversion" "95"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "93"
+	"mapversion" "95"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_normandy"
 	"detailvbsp" "foliage_normandy.vbsp"
@@ -733,7 +733,7 @@ world
 		{
 			"id" "894"
 			"plane" "(-16 16 0) (-1024 16 0) (-1024 1024 0)"
-			"material" "MAPS/BRECOURT/TERRAIN/BLEND_HAY_GRASS_NORMANDY_002"
+			"material" "MAPS/BRECOURT/TERRAIN/BLEND_GRASS_DIRT_NORMANDY_001"
 			"uaxis" "[0 -1 0 -32] 0.25"
 			"vaxis" "[-1 0 0 32] 0.25"
 			"rotation" "0"
@@ -892,7 +892,7 @@ world
 		{
 			"id" "900"
 			"plane" "(-16 1056 0) (-1024 1056 0) (-1024 2064 0)"
-			"material" "MAPS/BRECOURT/TERRAIN/BLEND_GRASS_DIRT_NORMANDY_001"
+			"material" "MAPS/BRECOURT/TERRAIN/BLEND_HAY_GRASS_NORMANDY_002"
 			"uaxis" "[0 -1 0 -32] 0.25"
 			"vaxis" "[-1 0 0 32] 0.25"
 			"rotation" "0"
@@ -5482,6 +5482,35 @@ world
 }
 entity
 {
+	"id" "1359"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"origin" "-16 24 624"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 1500]"
+	}
+}
+entity
+{
+	"id" "1374"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"sides" "894"
+	"origin" "-528 520 112"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 1500]"
+	}
+}
+entity
+{
 	"id" "1304"
 	"classname" "env_detail_controller"
 	"angles" "0 0 0"
@@ -6228,8 +6257,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-151.479 -1071.03 196.268]"
-		"look" "[3038.34 -11907.8 -4185.37]"
+		"position" "[-248.37 297.713 388.087]"
+		"look" "[-7753.82 4842.85 -7967.7]"
 	}
 }
 cordons
