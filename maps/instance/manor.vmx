@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "228"
+	"mapversion" "229"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "228"
+	"mapversion" "229"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -16159,6 +16159,20 @@ world
 }
 entity
 {
+	"id" "27320"
+	"classname" "info_lighting"
+	"targetname" "light_towerstair"
+	"origin" "128 764 169"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "25966"
 	"classname" "info_lighting"
 	"targetname" "light_01"
@@ -24719,7 +24733,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "128 776 144"
+	"origin" "128 778 143"
 	editor
 	{
 		"color" "255 255 0"
@@ -24733,8 +24747,10 @@ entity
 	"id" "7094"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"fademindist" "-1"
+	"fademaxdist" "1024"
+	"fademindist" "1024"
 	"fadescale" "1"
+	"lightingorigin" "light_towerstair"
 	"model" "models/italy/prop_stairs_96_24.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "5"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -43,7 +43,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-184.006 -95.875 165.002]"
+				"startposition" "[-184 -95.875 165]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -178,7 +178,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-184.006 -95.875 161.002]"
+				"startposition" "[-184 -95.8789 161]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -313,7 +313,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-184.003 -95.875 161.003]"
+				"startposition" "[-184 -95.875 161]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -448,7 +448,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[223.997 -95.875 161.005]"
+				"startposition" "[224 -95.8711 161]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -583,7 +583,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-184.004 176.124 127.002]"
+				"startposition" "[-184 176.124 127]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -718,7 +718,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-184.008 -95.876 161]"
+				"startposition" "[-184 -95.876 161]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1812,8 +1812,8 @@ entity
 	"angles" "-90 270 0"
 	"disableshadows" "0"
 	"fademaxdist" "5500"
-	"fademindist" "-1"
-	"fadescale" "5500"
+	"fademindist" "5300"
+	"fadescale" "1"
 	"model" "models/static_fittings/prop_beams_160_12.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -1904,8 +1904,8 @@ entity
 	"angles" "-90 0 0"
 	"disableshadows" "0"
 	"fademaxdist" "5500"
-	"fademindist" "-1"
-	"fadescale" "5500"
+	"fademindist" "5300"
+	"fadescale" "1"
 	"model" "models/static_fittings/prop_beams_160_12.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
